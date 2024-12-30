@@ -10,7 +10,7 @@ spring:
     hibernate:
       ddl-auto: update
 server:
-  port: 8085
+  port: 8084
 eureka:
   client:
     service-url:
