@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: sample-department-service
   datasource:
     url: jdbc:mysql://localhost:3307/department_db
     username: developer
