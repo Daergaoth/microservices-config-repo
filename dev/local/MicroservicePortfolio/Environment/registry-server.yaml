@@ -1,0 +1,23 @@
+server:
+  port: 8761
+#spring:
+#  application:
+#    name: eureka-server
+eureka:
+  instance:
+    prefer-ip-address: true
+  #    ip-address: 127.0.0.1 # Replace with the correct IP address
+  #    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#spring:
+#  config:
+#    import: configserver:http://localhost:8888
+#  application:
+#    name: eureka-server

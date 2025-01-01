@@ -1,0 +1,17 @@
+#spring:
+#  application:
+#    name: config-server
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/Daergaoth/microservices-config-repo.git
+#          skipSslValidation: true
+#          clone-on-start: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port: 8888
