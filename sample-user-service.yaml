@@ -20,3 +20,5 @@ eureka:
     fetch-registry: true
   instance:
     prefer-ip-address: true
+    ip-address: 127.0.0.1 # Replace with the correct IP address
+    hostname: 127.0.0.1
